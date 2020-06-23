@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    background: white;
+    font-size: small;
+}
+
+.text-center{
+    text-align: center;
+}
+
+a{
+    display: inline-block;
+    color: #5f6368;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+a:hover{
+    color: #5f6368; 
+}
+
+
+.google-button{
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 3px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    color: #5f6368
+  }
+
+  .google-button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    text-decoration: none;
+ }
+
+ .navtop{
+    margin-top: 10px;
+}
+
+ .profilepic{
+    border-radius: 15px;
+    margin-top: 0px;
+ }
+
+ .margin-logo{
+    margin-top: 130px;
+    margin-bottom: 30px;
+ }
+
+ .fixed-bottom{
+    background-color: #f2f2f2 ;
+ }
+
+ .location{
+    display: inline-block;
+    color: grey;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+hr{
+    margin: 0px -15px;
+}
+
+.gsearch-voice{
+    height: 25px;
+    width: 25px;
+    margin: 7.5px 6px;
+    border-radius: 8px;
+}
+
+.gsearch-icon{
+    height: 30px;
+    width: 40px;
+    margin: 7px 6px;
+    border-radius: 8px;
+}
+
+select{
+    -webkit-appearance: none;
+    border: none;
+    width: 480px;
+    height: 38px;
+    margin-top: 3px;
+    outline: none;
+}
+
+option{
+    outline: none;
+}
+
+.search-bar{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    border-color: lightgray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 580px;
+    height: 45px;
+}
+
+#input-append{
+    float: right;
+}
