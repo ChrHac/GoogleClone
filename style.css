@@ -114,3 +114,7 @@ option{
 #input-append{
     float: right;
 }
+
+.hide {
+    display:none;
+}
