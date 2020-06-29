@@ -53,6 +53,24 @@ a:hover{
     margin-top: 0px;
  }
 
+ .icon{
+    height: 50px;
+    width: 50px;
+ }
+
+.app{
+    width: 90%;
+    height: 100%;
+}
+
+ .app:hover{
+     background-color: lightcyan;
+ }
+
+ .profilepic1{
+    border-radius: 60px;
+ }
+
  .margin-logo{
     margin-top: 130px;
     margin-bottom: 30px;
@@ -76,14 +94,14 @@ hr{
 .gsearch-voice{
     height: 25px;
     width: 25px;
-    margin: 7.5px 6px;
+    margin: 8px 10px;
     border-radius: 8px;
 }
 
 .gsearch-icon{
-    height: 30px;
-    width: 40px;
-    margin: 7px 6px;
+    height: 20px;
+    width: 30px;
+    margin: 10px 6px;
     border-radius: 8px;
 }
 
@@ -117,4 +135,51 @@ option{
 
 .hide {
     display:none;
+}
+
+#main{
+    float: right;
+    width: 330px;
+    height: 500px;
+    overflow-y: scroll;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 10px;
+    margin-right: 30px;
+    overflow-x: hidden;
+}
+
+#apps-list{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 7px;
+    margin-top: 10px;
+    margin-left: 5px;
+    grid-auto-rows: auto;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: stretch;
+    align-content: center;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background: lightgray;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: lightslategray; 
 }
