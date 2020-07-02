@@ -23,7 +23,9 @@ a:hover{
 
 .google-button{
     border-radius: 4px;
-    margin: 11px 4px;
+    margin-top: 11px;
+    margin-left: 4px;
+    margin-right: 4px;
     padding: 3px 16px;
     line-height: 27px;
     height: 36px;
@@ -33,61 +35,61 @@ a:hover{
     background-color: #f2f2f2;
     background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
     color: #5f6368
-  }
+}
 
-  .google-button:hover{
+.google-button:hover{
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
     background-color: #f8f8f8;
     border: 1px solid #c6c6c6;
     color: #222;
     text-decoration: none;
- }
+}
 
- .navtop{
+.navtop{
     margin-top: 10px;
 }
 
- .profilepic{
+.profilepic{
     border-radius: 15px;
     margin-top: 0px;
- }
+}
 
- .icon{
+.icon{
     height: 50px;
     width: 50px;
- }
+}
 
 .app{
     width: 90%;
     height: 100%;
 }
 
- .app:hover{
+.app:hover{
      background-color: lightcyan;
- }
+}
 
- .profilepic1{
+.profilepic1{
     border-radius: 60px;
- }
+}
 
- .margin-logo{
+.margin-logo{
     margin-top: 130px;
     margin-bottom: 30px;
- }
+}
 
- .fixed-bottom{
+.fixed-bottom{
     background-color: #f2f2f2 ;
- }
+}
 
- .location{
+.location{
     display: inline-block;
     color: grey;
     text-decoration: none;
     padding: 14px 16px;
 }
 
-hr{
+.hr-footer{
     margin: 0px -15px;
 }
 
@@ -105,16 +107,12 @@ hr{
     border-radius: 8px;
 }
 
-select{
+input{
     -webkit-appearance: none;
     border: none;
     width: 480px;
     height: 38px;
     margin-top: 3px;
-    outline: none;
-}
-
-option{
     outline: none;
 }
 
@@ -127,6 +125,7 @@ option{
     margin-bottom: 15px;
     width: 580px;
     height: 45px;
+    overflow: hidden;
 }
 
 #input-append{
@@ -138,20 +137,22 @@ option{
 }
 
 #main{
-    float: right;
+    position: absolute;
+    right: 30px;
     width: 330px;
     height: 500px;
     overflow-y: scroll;
     border-style: solid;
     border-color: grey;
     border-radius: 10px;
-    margin-right: 30px;
     overflow-x: hidden;
+    background-color: white;
+    z-index: 3;
 }
 
 #apps-list{
     display: grid;
-    grid-template-columns: repeat(3, 100px);
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
     grid-template-rows: repeat(2, auto);
     grid-gap: 7px;
     margin-top: 10px;
@@ -183,3 +184,52 @@ option{
 ::-webkit-scrollbar-thumb:hover {
     background: lightslategray; 
 }
+
+#suggestions{
+    margin-top: -14px;
+    text-align: left;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;  
+  margin-top: -10px;
+  padding: 0;
+}
+
+li{
+    padding: 6px 0px;
+    font-size: 16px;
+    width: 580px;
+    margin-left: -15px;
+}
+
+.clock{
+    margin-left: 15px;
+    margin-right: 18px;
+    color: grey;
+}
+
+#suggestions a{
+    display: inline-block;
+    color: grey;
+    text-decoration: none;
+    padding: 0;
+}
+
+.remove{
+    position: absolute;
+    right: 13px;
+    font-size: 14px;
+}
+
+#suggestions .remove:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+li:hover{
+    background-color: #e0e0e0;
+}
+
+

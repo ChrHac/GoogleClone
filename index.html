@@ -182,32 +182,38 @@
         </div>
     </div>
 
-    <div class="container text-center search-bar">
+    <div class="container text-center search-bar" id="search-bar">
         <div class="row">
             <div>
                 <span id="input-prepend"><img class="gsearch-icon" src="https://imageog.flaticon.com/icons/png/512/61/61088.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF"></span>
             </div>
-        <!-- RECODING -->
 
             <div>
-                <select>
-                    <option></option>
-                    <option>spotify</option>
-                    <option>youtube</option>
-                    <option>twitter</option>
-                    <option>reddit</option>
-                    <option>anti procrstination chrome extension</option>
-                </select>
+                <input id="input"></input>
             </div>
                     
             <div>
                 <span id="input-append"><img class="gsearch-voice" src="https://us.123rf.com/450wm/vecstock/vecstock2005/vecstock200506591/146345323-stock-illustration-user-interface-concept-microphone-icon-over-white-background-line-style-vector-illustration.jpg?ver=6"></span>
             </div>
         </div>
+        <div class="row" id="suggestions">
+            <div class="col-sm-12">
+                <hr>
+                <ul>
+                    <li><span class="clock">&#9719</span><a href="#">javascript change margin top</a><a href="#" class="remove">Remove</a></li>
+                    <li><span class="clock">&#9719</span><a href="#">lorem ipsum</a><a href="#" class="remove">Remove</a></li>
+                    <li><span class="clock">&#9719</span><a href="#">jquery</a><a href="#" class="remove">Remove</a></li>
+                    <li><span class="clock">&#9719</span><a href="#">lake district</a><a href="#" class="remove">Remove</a></li>
+                    <li><span class="clock">&#9719</span><a href="#">google docs</a><a href="#" class="remove">Remove</a></li>
+                    <li><span class="clock">&#9719</span><a href="#">google maps</a><a href="#" class="remove">Remove</a></li>
+                    <li><span class="clock">&#9719</span><a href="#">youtube</a><a href="#" class="remove">Remove</a></li>
+                </ul>
+            </div>    
+        </div>
     </div> 
     
 
-    <div class="container text-center">
+    <div class="container text-center" id="buttons">
         <div class="row">
             <div class="col-sm-12">
                 <a class="google-button" href="">Google search</a>
@@ -219,11 +225,11 @@
     <div class="container-fluid fixed-bottom">
         <div class="row">
             <div class="col-sm-12">
-                <hr>
+                <hr class="hr-footer">
                 <div class="location">
                     United Kingdom
                 </div>
-                <hr>
+                <hr class="hr-footer">
                 <div class="navbot">
                     <a href="#">Advertising</a>
                     <a href="#">Business</a>
@@ -242,9 +248,9 @@
 
 
 </body>
-<script src="js.js"></script>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+<script src="js.js"></script>
 </html>
